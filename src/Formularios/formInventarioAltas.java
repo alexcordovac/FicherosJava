@@ -59,6 +59,7 @@ public class formInventarioAltas extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(71, 120, 197));
+        setMinimumSize(new java.awt.Dimension(480, 350));
         setPreferredSize(new java.awt.Dimension(480, 350));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 

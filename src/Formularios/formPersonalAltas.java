@@ -60,6 +60,7 @@ public class formPersonalAltas extends javax.swing.JPanel {
         jLabel11 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(71, 120, 197));
+        setMinimumSize(new java.awt.Dimension(480, 350));
         setPreferredSize(new java.awt.Dimension(480, 350));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -200,7 +201,6 @@ public class formPersonalAltas extends javax.swing.JPanel {
         btnRenombrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnRenombrar.setFocusable(false);
         btnRenombrar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnRenombrar.setRolloverEnabled(false);
         btnRenombrar.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/icoRenombrarHover.png"))); // NOI18N
         btnRenombrar.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         btnRenombrar.addActionListener(new java.awt.event.ActionListener() {
