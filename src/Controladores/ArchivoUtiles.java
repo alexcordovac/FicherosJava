@@ -155,7 +155,6 @@ public class ArchivoUtiles {
             return;
         }
         nombreArchivo = nombreArchivo.replaceAll("[^a-zA-Z0-9\\s]", "-")+".txt";
-        System.out.println(nombreArchivo);
         File nvoArchivo = new File(nombreArchivo);
         boolean correcto = archivo.renameTo(nvoArchivo);
         

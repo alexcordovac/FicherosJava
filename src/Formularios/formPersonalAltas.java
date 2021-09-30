@@ -277,7 +277,7 @@ public class formPersonalAltas extends javax.swing.JPanel {
         }catch(NumberFormatException ex){
             JOptionPane.showMessageDialog(null, "La edad debe ser un número");
         }catch(NullPointerException ex){
-        }catch (IOException ex) {
+            }catch (IOException ex) {
             JOptionPane.showMessageDialog(null, "Error al guardar: Intenta con otro nombre");
         }
     }//GEN-LAST:event_btnGuardarActionPerformed
